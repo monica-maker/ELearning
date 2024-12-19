@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { CiLogin } from "react-icons/ci";
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
@@ -64,7 +65,7 @@ export default function Nav() {
                 <MenuItem onClick={handleMenuClose}><a href="#">Blogs</a></MenuItem>
                 <MenuItem onClick={handleMenuClose}><a href="#">About Us</a></MenuItem>
                 <MenuItem onClick={handleMenuClose}><a href="#">Login</a></MenuItem>
-                <MenuItem onClick={handleMenuClose}><button className='b1'>Sign up</button></MenuItem>
+                <MenuItem onClick={handleMenuClose}><button className='b1'>Sign up<CiLogin className='icon'/></button></MenuItem>
             </div>
           </Menu>
         </>

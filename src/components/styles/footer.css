@@ -1,0 +1,81 @@
+.footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #eceded;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    width: 14rem;
+}
+
+.copyright span {
+    font-weight: 300;
+}
+
+.highlights a {
+    color: #000;
+    text-decoration: none;
+    font-size: clamp(.8rem, 2.5vw, 1.2rem);
+}
+
+.highlights li {
+    padding-top: .4rem;
+    list-style-type: none;
+    font-size: clamp(.8rem, 2.5vw, 1.2rem);
+}
+
+.service a {
+    color: #000;
+    text-decoration: none;
+    font-size: clamp(.8rem, 2.5vw, 1.2rem);
+}
+
+.service li {
+    padding-top: .4rem;
+    list-style-type: none;
+    font-size: clamp(.8rem, 2.5vw, 1.2rem);
+}
+
+.media {
+    text-align: center;
+}
+
+.media-icons {
+    padding-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.media-icons div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+.media-icons p {
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 770px){
+    .footer{
+        flex-wrap: wrap;
+    }
+    .copyright{
+        padding: 1.5rem 0rem 1.5rem 1rem;
+        width: 12rem;
+    }
+    .highlights{
+        padding: 1.5rem;
+    }
+    .copyright, .highlights, .service, .media{
+        padding-bottom: 1rem;
+    }
+}
