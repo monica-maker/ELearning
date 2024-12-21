@@ -2,6 +2,7 @@ import Nav from "/src/components/nav.jsx";
 import Footer from "/src/components/footer.jsx";
 import Header from "/src/components/header.jsx";
 import Courses from "/src/components/cards1.jsx";
+import Comments from "/src/components/comments.jsx";
 
 export default function App(){
     return(
@@ -9,6 +10,7 @@ export default function App(){
             <Nav/>   
             <Header/>
             <Courses/> 
+            <Comments/>
             <Footer/>    
         </>
     )
