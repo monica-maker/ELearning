@@ -33,7 +33,7 @@ export default function Nav() {
   return (
     <nav className='Navigation'>
       <div className='logo'>
-        <h3><span>Learn</span>Flek</h3>
+        <h3><span className='s'>Learn</span><span className='s1'>Flek</span></h3>
       </div>
       <div className='select-container'>
         <select id="choice-selector" value={selectedOption} onChange={handleSelectChange}>
@@ -65,7 +65,7 @@ export default function Nav() {
                 <MenuItem onClick={handleMenuClose}><a href="#">Blogs</a></MenuItem>
                 <MenuItem onClick={handleMenuClose}><a href="#">About Us</a></MenuItem>
                 <MenuItem onClick={handleMenuClose}><a href="#">Login</a></MenuItem>
-                <MenuItem onClick={handleMenuClose}><button className='b1'>Sign up<CiLogin className='icon'/></button></MenuItem>
+                <MenuItem onClick={handleMenuClose}><button className='b1'>Sign up<CiLogin className='sign_up_icon'/></button></MenuItem>
             </div>
           </Menu>
         </>

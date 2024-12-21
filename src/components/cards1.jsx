@@ -30,14 +30,14 @@ export default function Courses() {
         <div className="card-container">
             {courses.map((course, index) => (
                 <div key={index} className="card">
-                    <div>
+                    <div className ="img_holder">
                         <img src={course.imgSrc} alt={course.altText} />
-                        <button>Learn more</button>
+                        <button className="b4">Learn more</button>
                     </div>
                     <div className="texts">
                         <h2>{course.title}</h2>
                         <h5>{course.modules}</h5>
-                        <div className="icon">
+                        <div className="stars_icon">
                             <p>{course.rating}</p>
                             <MdOutlineStarPurple500 />
                             <MdOutlineStarPurple500 />

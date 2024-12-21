@@ -28,11 +28,13 @@ body {
 
 .logo h3 {
   margin: 0;
-  white-space: nowrap; 
-  font-size: clamp(1.1rem, 2vw, 1.5rem); 
   margin-right: 20px; 
+  font-size: clamp(1.1rem, 2vw, 1.5rem); 
 }
-.logo span{
+.s1{
+  font-weight: 300;
+}
+.logo .s{
     color: #f3c705;
 }
 #choice-selector {
@@ -130,7 +132,8 @@ body {
     border: none; 
     cursor: pointer; 
   }
-  .icon {
+  .sign_up_icon {
+    color: #000;
     font-size: 1.2rem; 
   }
   #choice-selector {
