@@ -1,9 +1,9 @@
 .intro{
     display: flex;
     align-items: center;
-    padding: .5rem 2rem;
+    padding: .5rem 12rem;
     background-color: #f0f1fd;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .text{
     width: 25rem;

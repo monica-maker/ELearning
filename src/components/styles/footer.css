@@ -1,8 +1,7 @@
 .footer {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-color: #f0f1fd;
     display: flex;
+    padding: 2.4rem;
+    background-color: #f0f1fd;
     justify-content: space-around;
 }
 
@@ -13,7 +12,9 @@
 .copyright span {
     font-weight: 300;
 }
-
+.highlights{
+    margin-right: 5rem;
+}
 .highlights a {
     color: #000;
     text-decoration: none;
@@ -25,7 +26,6 @@
     list-style-type: none;
     font-size: clamp(.8rem, 2.5vw, 1.2rem);
 }
-
 .service a {
     color: #000;
     text-decoration: none;

@@ -5,13 +5,14 @@
 .comments_heading {
     color: #333;
     margin-bottom: 1rem;
-    padding-left: 16rem;
+    padding-left: 12rem;
     font-size: clamp(1rem, 3vw, 1.5rem); 
 }
 .comment_cards {
     display: flex;
+    margin-bottom: 2rem;
     overflow: hidden;
-    flex-direction: row;
+    gap: 65px;
     justify-content: center;
 }
 
