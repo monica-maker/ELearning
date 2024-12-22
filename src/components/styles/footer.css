@@ -76,7 +76,7 @@
         width: 10rem;
     }
     .copyright, .highlights, .service, .media{
-        padding: 4rem;
-        margin-bottom: 1rem;
+        /* padding: 4rem; */
+        /* margin-bottom: 1rem; */
     }
 }
