@@ -1,19 +1,20 @@
 .footer {
     display: flex;
     padding: 2.4rem;
+    justify-content: center;
     background-color: #f0f1fd;
-    justify-content: space-around;
 }
 
 .copyright {
     width: 14rem;
+    margin-right: 3rem;
 }
 
 .copyright span {
     font-weight: 300;
 }
 .highlights{
-    margin-right: 5rem;
+    margin-right: 3rem;
 }
 .highlights a {
     color: #000;
@@ -25,6 +26,10 @@
     padding-top: .4rem;
     list-style-type: none;
     font-size: clamp(.8rem, 2.5vw, 1.2rem);
+}
+.service{
+    margin-right: 3rem;
+    
 }
 .service a {
     color: #000;
@@ -39,6 +44,7 @@
 }
 
 .media {
+    margin-right: 3rem;
     text-align: center;
 }
 
@@ -61,21 +67,16 @@
     font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
-
-
-
 @media (min-width: 300px) and (max-width: 770px){
     .footer{
         flex-wrap: wrap;
+        margin-right: 0px;
     }
     .copyright{
-        padding: 1.5rem 0rem 1.5rem 1rem;
-        width: 12rem;
-    }
-    .highlights{
-        padding: 1.5rem;
+        width: 10rem;
     }
     .copyright, .highlights, .service, .media{
-        padding-bottom: 1rem;
+        margin-right: 7rem;
+        margin-bottom: 1rem;
     }
 }
