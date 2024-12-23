@@ -1,82 +1,59 @@
+
 .footer {
     display: flex;
-    padding: 2.4rem;
-    justify-content: center;
-    background-color: #f0f1fd;
+    padding: 20px;
+    background-color: #f8f9fa;
 }
-
-.copyright {
-    width: 14rem;
-    margin-right: 3rem;
+.st, .nd {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: space-around;
 }
-
-.copyright span {
-    font-weight: 300;
+.copyright h3, .highlights h3, .service h3, .media h3 {
+    margin-bottom: 10px;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
-.highlights{
-    margin-right: 3rem;
+.copyright{
+    width: 10rem;
 }
-.highlights a {
-    color: #000;
-    text-decoration: none;
-    font-size: clamp(.8rem, 2.5vw, 1.2rem);
-}
-
-.highlights li {
-    padding-top: .4rem;
-    list-style-type: none;
-    font-size: clamp(.8rem, 2.5vw, 1.2rem);
+.copyright p {
+    color: #0b0b0b;
+    font-size: clamp(0.8rem, 2vw, 1rem);
 }
 .service{
-    margin-right: 3rem;
-    
+    margin-bottom: 2rem;
 }
-.service a {
-    color: #000;
+li {
+    list-style: none;
+}
+
+li a {
+    color: #0b0b0b;
     text-decoration: none;
-    font-size: clamp(.8rem, 2.5vw, 1.2rem);
-}
-
-.service li {
-    padding-top: .4rem;
-    list-style-type: none;
-    font-size: clamp(.8rem, 2.5vw, 1.2rem);
-}
-
-.media {
-    margin-right: 3rem;
-    text-align: center;
-}
-
-.media-icons {
-    padding-top: .5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .5rem;
-}
-
-.media-icons div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 0.5rem; 
-}
-
-.media-icons p {
     font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
+.media-icons div {
+    display: flex;
+    align-items: center;
+}
 
-@media (min-width: 300px) and (max-width: 770px){
-    .footer{
-        flex-wrap: wrap;
-        margin-right: 0px;
+.media-icons div p {
+    margin-left: 10px;
+    margin-bottom: .5rem;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+@media (max-width: 770px) {
+    .st, .nd {
+        align-items: center;
+        flex-direction: column;
     }
-    .copyright{
-        width: 10rem;
-    }
-    .copyright, .highlights, .service, .media{
-        /* padding: 4rem; */
-        /* margin-bottom: 1rem; */
+}
+
+@media (max-width: 300px) {
+    .st div, .nd div {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
