@@ -11,7 +11,10 @@
     align-items: center;
     justify-content: space-around;
 }
-.copyright h3, .highlights h3, .service h3, .media h3 {
+.copyright, .highlights, .service, .media {
+ padding: 1rem;
+}
+.copyright h3, .highlights h3, .service h3, .media h3{
     margin-bottom: 10px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
@@ -51,9 +54,3 @@ li a {
     }
 }
 
-@media (max-width: 300px) {
-    .st div, .nd div {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
